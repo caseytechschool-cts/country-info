@@ -1,3 +1,10 @@
+# Things you will learn
+1. How to work with third party Python packages (install and use)
+2. PyCharm as an IDE of choice (installation and use)
+3. Making GUI applications
+4. Working with API
+5. Display and core logic of a program 
+
 # Install dependencies
 ***
 1. Python
@@ -266,3 +273,6 @@ while True:
 window.close()
 ```
 ---
+# Possible improvements
+1. The `Clear` button is not active. Nothing happens when you click it. What logic we need to make it working?
+2. The code is not terrible big, but how could you make it modular?

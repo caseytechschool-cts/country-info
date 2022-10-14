@@ -8,6 +8,7 @@ def country_info():
     layout = layout_builder()
     window = sg.Window('Country info finder', layout, element_justification='c')
     while True:
+        # print(window.element_list())
         event, values = window.read()
         print(event)
         if event == sg.WIN_CLOSED or event == '-exit-':
